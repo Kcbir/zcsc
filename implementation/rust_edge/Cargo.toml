@@ -1,0 +1,32 @@
+[package]
+name = "contagion-edge"
+version = "0.1.0"
+edition = "2021"
+description = "Zero-copy CSV/FIX parsing, monotonic timestamping, and IPC for semantic contagion pipeline"
+
+[lib]
+name = "contagion_edge"
+crate-type = ["rlib"]
+
+[features]
+default = []
+python = ["pyo3"]
+
+[dependencies]
+# Zero-copy parsing
+memchr = "2"
+thiserror = "2"
+# Expose to Python via PyO3 (optional)
+pyo3 = { version = "0.23", features = ["extension-module"], optional = true }
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[[bench]]
+name = "latency"
+harness = false
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1

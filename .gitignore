@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Rust build artefacts
+implementation/rust_edge/target/
+
+# Raw data (see data/README_data.md for download instructions)
+data/*.csv
+data/*.parquet
+data/July_2022_Quant_Per_Ticker/
+
+# Editor / tool state
+.claude/
+*.log
