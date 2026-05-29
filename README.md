@@ -1,7 +1,6 @@
 # Zero-Copy Semantic Contagion
 
 **ACM SIGMOD FinDS '26** · May 31 2026 · Bengaluru, India  
-[Paper (PDF)](ACM%20FinDS.pdf) · [OpenReview](https://openreview.net/forum?id=zcsc-finds26)
 
 **Author:** Kabir Murjani  
 **Contact:** kabir.murjani@iimb.ac.in · 23bee064@nirmauni.ac.in
