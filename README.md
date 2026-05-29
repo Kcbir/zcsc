@@ -175,8 +175,7 @@ Expected outputs matching Table 3 (Apple M2, release + native):
   title     = {Zero-Copy Semantic Contagion: An In-Memory Streaming
                Architecture for Evolving Attention Graphs},
   author    = {Murjani, Kabir},
-  booktitle = {Proceedings of the ACM SIGMOD Workshop on Finance and
-               Data Science (FinDS '26)},
+  booktitle = {ACM SIGMOD Workshop on Data Management for the Modern Financial Systems (FinDS '26)},
   year      = {2026},
   month     = {May},
   address   = {Bengaluru, India},
